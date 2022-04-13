@@ -1,0 +1,10 @@
+ <form action = "login.php" method = "post">
+                  <label>Email  :</label><input type = "text" id ="email" name = "email" class = "box" required="" /><br /><br />
+                  <label>Password  :</label><input type = "password" name = "password" class = "box" required="" /><br/><br />
+                  <input type = "submit" onclick ="sessionStored();" value = " Submit "/><br />
+ </form>
+
+
+<script>
+            sessionKiller();
+   </script>
